@@ -1,22 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <OpenAIEngines />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OpenAIEngines from './components/OpenAIEngines.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OpenAIEngines
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -24,3 +25,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
